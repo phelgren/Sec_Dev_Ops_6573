@@ -16,9 +16,9 @@ jobs:
     - name: copy file via ssh password
       uses: appleboy/scp-action@v0.1.4
       with:
-        host: ${{ secrets.HOST }}
+        host: "10.0.10.140"
         username: "pete"
         key: ${{ secrets.KEY }}
-        port: ${{ secrets.PORT }}
+        port: "22"
         source: "6573.html"
         target: /www/petes/htdocs/petesworkshop
