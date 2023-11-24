@@ -18,7 +18,7 @@ jobs:
       with:
         host: ${{ secrets.HOST }}
         username: ${{ secrets.USERNAME }}
-        password: ${{ secrets.PASSWORD }}
+        key: ${{ secrets.KEY }}
         port: ${{ secrets.PORT }}
         source: "6573.html"
-        target: W:\petes\htdocs\petesworkshop
+        target: W:/\petes/\htdocs/\petesworkshop
