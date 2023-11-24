@@ -1,4 +1,4 @@
-name: scp files
+"name: scp files
 # Controls when the workflow will run
 on:
   # Triggers the workflow on push or pull request events but only for the "main" branch
@@ -17,8 +17,8 @@ jobs:
       uses: appleboy/scp-action@v0.1.4
       with:
         host: ${{ secrets.HOST }}
-        username: ${{ secrets.USERNAME }}
-        password: ${{ secrets.PASSWORD }}
+        username: pete
+        key: ${{ secrets.KEY }}
         port: ${{ secrets.PORT }}
         source: "6573.html"
         target: /www/petes/htdocs/petesworkshop
