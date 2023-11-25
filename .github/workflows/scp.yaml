@@ -20,5 +20,5 @@ jobs:
         username: pete
         password: ${{ secrets.PASSWORD }}
         port: "22"
-        source: ./
-        target: /home/PETE
+        source: '.'
+        target: '/home/PETE'
