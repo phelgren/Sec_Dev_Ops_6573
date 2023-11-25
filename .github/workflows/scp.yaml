@@ -21,4 +21,4 @@ jobs:
         key: ${{ secrets.KEY }}
         port: "22"
         source: "6573.html"
-        target: /www/petes/htdocs/petesworkshop
+        target: /home/PETE
